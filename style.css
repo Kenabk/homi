@@ -1,0 +1,101 @@
+body
+{
+  margin: 0;
+  padding: o;
+  font-family:ans-serif;
+
+}
+@font-face {
+  font-family: retolia;
+  src: url(Retolia-BF6627323366900.otf);
+}
+.back
+{
+  z-index: -1;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+.top-header
+{
+  padding: 10px;
+  margin-left: 4%;
+  display: flex;
+  width: 100%;
+}
+
+.logo
+{
+  width: 13%;
+  position: fixed;
+}
+.class
+{
+  
+  display: flex;
+  padding: 10px;
+  margin: 1px;
+  margin-left: 65%;
+  width: 40%;
+  color: rgb(95, 108, 185);
+  font-size: 17px;
+}
+.room
+{
+  margin-left: 8%;
+  cursor: pointer;
+}
+.rooms
+{
+  position: fixed;
+  left: 69%;
+}
+
+
+.rooms:hover
+{
+  cursor: pointer;
+  color: orange;
+}
+.room:hover
+{
+  color: orange;
+}
+.big{
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  font-size: 40px;
+}
+.big-logo{
+  text-align: center;
+  font-size: 800%;
+  padding: 0;
+  margin: 0;
+  margin-top: -5%;
+  border: 20px;
+  margin-bottom: -10px;
+  -webkit-text-stroke: 2px rgb(22, 22, 22);
+  color: transparent;
+  font-family: retolia;
+}
+.looking
+{ margin: 0;
+  margin-top: -7%;
+  color: white;
+}
+.search-bar
+{
+  border-radius: 20px;
+  align-self: center;
+  width: 40%;
+  height: 30px;
+ 
+  padding: 5px;
+   padding-left: 25px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+::placeholder
+{text-align: center;}
